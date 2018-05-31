@@ -1333,12 +1333,16 @@ opencv2/core/cuda.hpp
 /home/hidehisa/hobby/opencv-test/src/detect_marker_from_mv/main.cpp
 iostream
 -
-opencv2/aruco.hpp
--
 opencv2/core.hpp
 -
 opencv2/highgui.hpp
 -
-string
+vector
+-
+cmath
+-
+opencv2/aruco.hpp
+-
+opencv2/videoio.hpp
 -
 

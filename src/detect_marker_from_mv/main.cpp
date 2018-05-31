@@ -1,36 +1,35 @@
 #include <iostream>
-#include <opencv2/aruco.hpp>
 #include <opencv2/core.hpp>
 #include <opencv2/highgui.hpp>
-#include <string>
+#include <vector>
+#include <cmath>
+#include <opencv2/aruco.hpp>
+#include <opencv2/videoio.hpp>
 
-cv::Mat __resize(const cv::Mat& in, int width){
-  if (in.size().width <= width) return in;
 
-  float yf = float(width) / float(in.size().width);
-  cv::Mat im2;
-  cv::resize(in, im2, cv::Size(width, static_cast<int>(in.size().height * yf)));
-  return im2;
-}
+int main(int argc, char **argv) {
+  cv::Ptr<cv::aruco::Dictionary> dictionary = cv::aruco::getPredefinedDictionary(cv::aruco::DICT_6X6_250);
+  cv::VideoCapture inputVideo(argv[1]);
 
-int main(int argc, char** argv){
-  cv::aruco::CameraParameters CamParam;
-  cv::Mat InImage;
-  cv::VideoCapture vreader(argv[1]);
+  while (inputVideo.grab()) {
+    cv::Mat image, imageCopy;
+    inputVideo.retrieve(image);
+    image.copyTo(imageCopy);
 
-  if (vreader.isOpened()) vreader >> InImage;
-  else throw std::runtime_error("Could not open input");
-  float MarkerSize = -1;
+    std::vector<int> ids;
+    std::vector<std::vector<cv::Point2f> > corners;
+    cv::aruco::detectMarkers(image, dictionary, corners, ids);
 
-  cv::aruco::MarkerDetector MDetector;
-  std::vector<cv::aruco::Marker> Markers = MDetector.detect(InImage, CamParam, MarkerSize);
+    if (ids.size() > 0) {
+      cv::aruco::drawDetectedMarkers(imageCopy, corners, ids);
+    }
 
-  for (unsigned int i=0; i<Markers.size(); i++){
-    std::cout << Markers[i] << std::endl;
-    Markers[i].draw(InImage, cv::aruco::Scaler(0, 0, 255), 2);
+    cv::namedWindow("out", 1);
+    cv::imshow("out", imageCopy);
+
+    while (char(cv::waitKey(0) != 27));
   }
 
-  cv::namedWindow("in", 1);
-  cv::imshow("in", __resize(InImage, 1280));
-  while (char(cv::waitKey(0)) != 27);
+
+  return 0;
 }
