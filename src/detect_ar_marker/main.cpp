@@ -11,7 +11,7 @@ int main(int argc, char **argv) {
   cv::Ptr<cv::aruco::Dictionary> dictionary = cv::aruco::getPredefinedDictionary(cv::aruco::DICT_6X6_250);
   cv::VideoCapture inputVideo;
   cv::Mat cameraMatrix, distCoeffs;
-  cv::readCameraParameters(cameraMatrix, distCoeffs);
+  cv::aruco::readCameraParameters(cameraMatrix, distCoeffs);
 
   inputVideo.open(0);
   while (inputVideo.grab()) {
