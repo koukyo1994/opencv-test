@@ -129,4 +129,4 @@ CMakeFiles/main.dir/main.cpp.o
  /home/hidehisa/anaconda3/include/opencv2/xfeatures2d.hpp
  /home/hidehisa/anaconda3/include/opencv2/xfeatures2d/cuda.hpp
  /home/hidehisa/anaconda3/include/opencv2/xfeatures2d/nonfree.hpp
- /home/hidehisa/hobby/opencv-test/src/detect_marker/main.cpp
+ /home/hidehisa/hobby/opencv-test/src/detect_ar_marker/main.cpp

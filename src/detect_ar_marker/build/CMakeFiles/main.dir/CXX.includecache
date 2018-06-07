@@ -1294,15 +1294,15 @@ opencv2/core/cuda.hpp
 opencv2/features2d.hpp
 /home/hidehisa/anaconda3/include/opencv2/xfeatures2d/opencv2/features2d.hpp
 
-/home/hidehisa/hobby/opencv-test/src/detect_marker/main.cpp
+/home/hidehisa/hobby/opencv-test/src/detect_ar_marker/main.cpp
+iostream
+-
 opencv2/core.hpp
 -
 opencv2/highgui.hpp
 -
-opencv2/imgcodecs.hpp
--
 opencv2/aruco.hpp
 -
-iostream
+opencv2/imgcodecs.hpp
 -
 
