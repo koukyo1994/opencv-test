@@ -1,4 +1,4 @@
-# Install script for directory: /home/hidehisa/hobby/opencv-test/src/detect_ar_marker
+# Install script for directory: /home/hidehisa/hobby/opencv-test/src/videocap
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/hidehisa/hobby/opencv-test/src/detect_ar_marker/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/hidehisa/hobby/opencv-test/src/videocap/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

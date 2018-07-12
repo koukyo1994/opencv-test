@@ -37,11 +37,6 @@ CMakeFiles/main.dir/main.cpp.o: /home/hidehisa/anaconda3/include/opencv2/core/ty
 CMakeFiles/main.dir/main.cpp.o: /home/hidehisa/anaconda3/include/opencv2/core/utility.hpp
 CMakeFiles/main.dir/main.cpp.o: /home/hidehisa/anaconda3/include/opencv2/core/version.hpp
 CMakeFiles/main.dir/main.cpp.o: /home/hidehisa/anaconda3/include/opencv2/core/vsx_utils.hpp
-CMakeFiles/main.dir/main.cpp.o: /home/hidehisa/anaconda3/include/opencv2/dnn.hpp
-CMakeFiles/main.dir/main.cpp.o: /home/hidehisa/anaconda3/include/opencv2/dnn/dict.hpp
-CMakeFiles/main.dir/main.cpp.o: /home/hidehisa/anaconda3/include/opencv2/dnn/dnn.hpp
-CMakeFiles/main.dir/main.cpp.o: /home/hidehisa/anaconda3/include/opencv2/dnn/dnn.inl.hpp
-CMakeFiles/main.dir/main.cpp.o: /home/hidehisa/anaconda3/include/opencv2/dnn/layer.hpp
 CMakeFiles/main.dir/main.cpp.o: /home/hidehisa/anaconda3/include/opencv2/features2d.hpp
 CMakeFiles/main.dir/main.cpp.o: /home/hidehisa/anaconda3/include/opencv2/flann.hpp
 CMakeFiles/main.dir/main.cpp.o: /home/hidehisa/anaconda3/include/opencv2/flann/all_indices.h
@@ -83,7 +78,6 @@ CMakeFiles/main.dir/main.cpp.o: /home/hidehisa/anaconda3/include/opencv2/imgproc
 CMakeFiles/main.dir/main.cpp.o: /home/hidehisa/anaconda3/include/opencv2/imgproc/imgproc_c.h
 CMakeFiles/main.dir/main.cpp.o: /home/hidehisa/anaconda3/include/opencv2/imgproc/types_c.h
 CMakeFiles/main.dir/main.cpp.o: /home/hidehisa/anaconda3/include/opencv2/ml.hpp
-CMakeFiles/main.dir/main.cpp.o: /home/hidehisa/anaconda3/include/opencv2/ml/ml.inl.hpp
 CMakeFiles/main.dir/main.cpp.o: /home/hidehisa/anaconda3/include/opencv2/objdetect.hpp
 CMakeFiles/main.dir/main.cpp.o: /home/hidehisa/anaconda3/include/opencv2/objdetect/detection_based_tracker.hpp
 CMakeFiles/main.dir/main.cpp.o: /home/hidehisa/anaconda3/include/opencv2/objdetect/objdetect_c.h
@@ -131,6 +125,8 @@ CMakeFiles/main.dir/main.cpp.o: /home/hidehisa/anaconda3/include/opencv2/videost
 CMakeFiles/main.dir/main.cpp.o: /home/hidehisa/anaconda3/include/opencv2/videostab/ring_buffer.hpp
 CMakeFiles/main.dir/main.cpp.o: /home/hidehisa/anaconda3/include/opencv2/videostab/stabilizer.hpp
 CMakeFiles/main.dir/main.cpp.o: /home/hidehisa/anaconda3/include/opencv2/videostab/wobble_suppression.hpp
+CMakeFiles/main.dir/main.cpp.o: /home/hidehisa/anaconda3/include/opencv2/xfeatures2d.hpp
 CMakeFiles/main.dir/main.cpp.o: /home/hidehisa/anaconda3/include/opencv2/xfeatures2d/cuda.hpp
+CMakeFiles/main.dir/main.cpp.o: /home/hidehisa/anaconda3/include/opencv2/xfeatures2d/nonfree.hpp
 CMakeFiles/main.dir/main.cpp.o: ../main.cpp
 

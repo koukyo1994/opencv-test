@@ -10,18 +10,6 @@
 opencv2/core/core_c.h
 /home/hidehisa/anaconda3/include/opencv/opencv2/core/core_c.h
 
-/home/hidehisa/anaconda3/include/opencv2/aruco.hpp
-opencv2/core.hpp
--
-vector
--
-opencv2/aruco/dictionary.hpp
-/home/hidehisa/anaconda3/include/opencv2/opencv2/aruco/dictionary.hpp
-
-/home/hidehisa/anaconda3/include/opencv2/aruco/dictionary.hpp
-opencv2/core.hpp
--
-
 /home/hidehisa/anaconda3/include/opencv2/calib3d.hpp
 opencv2/core.hpp
 /home/hidehisa/anaconda3/include/opencv2/opencv2/core.hpp
@@ -1294,15 +1282,9 @@ opencv2/core/cuda.hpp
 opencv2/features2d.hpp
 /home/hidehisa/anaconda3/include/opencv2/xfeatures2d/opencv2/features2d.hpp
 
-/home/hidehisa/hobby/opencv-test/src/detect_ar_marker/main.cpp
+/home/hidehisa/hobby/opencv-test/src/videocap/main.cpp
+opencv2/opencv.hpp
+-
 iostream
--
-opencv2/core.hpp
--
-opencv2/highgui.hpp
--
-opencv2/aruco.hpp
--
-opencv2/imgcodecs.hpp
 -
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hidehisa/hobby/opencv-test/src/detect_ar_marker/main.cpp" "/home/hidehisa/hobby/opencv-test/src/detect_ar_marker/build/CMakeFiles/main.dir/main.cpp.o"
+  "/home/hidehisa/hobby/opencv-test/src/videocap/main.cpp" "/home/hidehisa/hobby/opencv-test/src/videocap/build/CMakeFiles/main.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

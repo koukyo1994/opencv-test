@@ -3,8 +3,6 @@
 
 CMakeFiles/main.dir/main.cpp.o
  /home/hidehisa/anaconda3/include/opencv/cxcore.h
- /home/hidehisa/anaconda3/include/opencv2/aruco.hpp
- /home/hidehisa/anaconda3/include/opencv2/aruco/dictionary.hpp
  /home/hidehisa/anaconda3/include/opencv2/calib3d.hpp
  /home/hidehisa/anaconda3/include/opencv2/calib3d/calib3d_c.h
  /home/hidehisa/anaconda3/include/opencv2/core.hpp
@@ -129,4 +127,4 @@ CMakeFiles/main.dir/main.cpp.o
  /home/hidehisa/anaconda3/include/opencv2/xfeatures2d.hpp
  /home/hidehisa/anaconda3/include/opencv2/xfeatures2d/cuda.hpp
  /home/hidehisa/anaconda3/include/opencv2/xfeatures2d/nonfree.hpp
- /home/hidehisa/hobby/opencv-test/src/detect_ar_marker/main.cpp
+ /home/hidehisa/hobby/opencv-test/src/videocap/main.cpp

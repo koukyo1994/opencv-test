@@ -38,11 +38,6 @@ CMakeFiles/main.dir/main.cpp.o
  /home/hidehisa/anaconda3/include/opencv2/core/utility.hpp
  /home/hidehisa/anaconda3/include/opencv2/core/version.hpp
  /home/hidehisa/anaconda3/include/opencv2/core/vsx_utils.hpp
- /home/hidehisa/anaconda3/include/opencv2/dnn.hpp
- /home/hidehisa/anaconda3/include/opencv2/dnn/dict.hpp
- /home/hidehisa/anaconda3/include/opencv2/dnn/dnn.hpp
- /home/hidehisa/anaconda3/include/opencv2/dnn/dnn.inl.hpp
- /home/hidehisa/anaconda3/include/opencv2/dnn/layer.hpp
  /home/hidehisa/anaconda3/include/opencv2/features2d.hpp
  /home/hidehisa/anaconda3/include/opencv2/flann.hpp
  /home/hidehisa/anaconda3/include/opencv2/flann/all_indices.h
@@ -84,7 +79,6 @@ CMakeFiles/main.dir/main.cpp.o
  /home/hidehisa/anaconda3/include/opencv2/imgproc/imgproc_c.h
  /home/hidehisa/anaconda3/include/opencv2/imgproc/types_c.h
  /home/hidehisa/anaconda3/include/opencv2/ml.hpp
- /home/hidehisa/anaconda3/include/opencv2/ml/ml.inl.hpp
  /home/hidehisa/anaconda3/include/opencv2/objdetect.hpp
  /home/hidehisa/anaconda3/include/opencv2/objdetect/detection_based_tracker.hpp
  /home/hidehisa/anaconda3/include/opencv2/objdetect/objdetect_c.h
@@ -132,5 +126,7 @@ CMakeFiles/main.dir/main.cpp.o
  /home/hidehisa/anaconda3/include/opencv2/videostab/ring_buffer.hpp
  /home/hidehisa/anaconda3/include/opencv2/videostab/stabilizer.hpp
  /home/hidehisa/anaconda3/include/opencv2/videostab/wobble_suppression.hpp
+ /home/hidehisa/anaconda3/include/opencv2/xfeatures2d.hpp
  /home/hidehisa/anaconda3/include/opencv2/xfeatures2d/cuda.hpp
+ /home/hidehisa/anaconda3/include/opencv2/xfeatures2d/nonfree.hpp
  /home/hidehisa/hobby/opencv-test/src/create_marker/main.cpp
